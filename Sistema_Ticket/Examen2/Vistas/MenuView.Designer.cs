@@ -83,7 +83,7 @@ namespace Examen2.Vistas
             this.ribbonControlAdv1.QuickPanelVisible = false;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem4;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(1046, 204);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -132,7 +132,7 @@ namespace Examen2.Vistas
             this.TiposSoporteToolStripButton.Image = global::Examen2.Properties.Resources.soportetecnico;
             this.TiposSoporteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TiposSoporteToolStripButton.Name = "TiposSoporteToolStripButton";
-            this.TiposSoporteToolStripButton.Size = new System.Drawing.Size(133, 99);
+            this.TiposSoporteToolStripButton.Size = new System.Drawing.Size(133, 100);
             this.TiposSoporteToolStripButton.Text = "TIPOS DE SOPORTE";
             this.TiposSoporteToolStripButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.TiposSoporteToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -170,7 +170,7 @@ namespace Examen2.Vistas
             this.toolStripEx2.Office12Mode = false;
             this.toolStripEx2.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx2.Size = new System.Drawing.Size(393, 54);
+            this.toolStripEx2.Size = new System.Drawing.Size(393, 119);
             this.toolStripEx2.TabIndex = 0;
             // 
             // EstadoToolStripButton
@@ -178,7 +178,7 @@ namespace Examen2.Vistas
             this.EstadoToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("EstadoToolStripButton.Image")));
             this.EstadoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.EstadoToolStripButton.Name = "EstadoToolStripButton";
-            this.EstadoToolStripButton.Size = new System.Drawing.Size(159, 34);
+            this.EstadoToolStripButton.Size = new System.Drawing.Size(159, 100);
             this.EstadoToolStripButton.Text = "ESTADO DE LOS TICKET";
             this.EstadoToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.EstadoToolStripButton.Click += new System.EventHandler(this.EstadoToolStripButton_Click);
@@ -215,7 +215,7 @@ namespace Examen2.Vistas
             this.toolStripEx3.Office12Mode = false;
             this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx3.Size = new System.Drawing.Size(383, 54);
+            this.toolStripEx3.Size = new System.Drawing.Size(383, 119);
             this.toolStripEx3.TabIndex = 0;
             // 
             // CreacionTicketsToolStripButton
@@ -223,7 +223,7 @@ namespace Examen2.Vistas
             this.CreacionTicketsToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("CreacionTicketsToolStripButton.Image")));
             this.CreacionTicketsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.CreacionTicketsToolStripButton.Name = "CreacionTicketsToolStripButton";
-            this.CreacionTicketsToolStripButton.Size = new System.Drawing.Size(147, 34);
+            this.CreacionTicketsToolStripButton.Size = new System.Drawing.Size(147, 100);
             this.CreacionTicketsToolStripButton.Text = "CREACION DE TICKET";
             this.CreacionTicketsToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CreacionTicketsToolStripButton.Click += new System.EventHandler(this.CreacionTicketsToolStripButton_Click);
@@ -260,7 +260,7 @@ namespace Examen2.Vistas
             this.toolStripEx4.Office12Mode = false;
             this.toolStripEx4.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx4.Size = new System.Drawing.Size(319, 54);
+            this.toolStripEx4.Size = new System.Drawing.Size(319, 119);
             this.toolStripEx4.TabIndex = 0;
             // 
             // DetalleToolStripButton
@@ -268,7 +268,7 @@ namespace Examen2.Vistas
             this.DetalleToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("DetalleToolStripButton.Image")));
             this.DetalleToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.DetalleToolStripButton.Name = "DetalleToolStripButton";
-            this.DetalleToolStripButton.Size = new System.Drawing.Size(169, 34);
+            this.DetalleToolStripButton.Size = new System.Drawing.Size(169, 100);
             this.DetalleToolStripButton.Text = "DETALLES DE LOS TICKET";
             this.DetalleToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DetalleToolStripButton.Click += new System.EventHandler(this.DetalleToolStripButton_Click);

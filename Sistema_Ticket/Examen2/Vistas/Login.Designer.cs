@@ -125,7 +125,7 @@ namespace Examen2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(567, 360);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.AceptarButton);

@@ -31,8 +31,8 @@ namespace Examen2.Vistas
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.MostrarTicketButton = new System.Windows.Forms.Button();
             this.LimpiarButton = new System.Windows.Forms.Button();
+            this.MostrarTicketButton = new System.Windows.Forms.Button();
             this.DetalleDataGridView = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DetalleDataGridView)).BeginInit();
@@ -58,16 +58,6 @@ namespace Examen2.Vistas
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             // 
-            // MostrarTicketButton
-            // 
-            this.MostrarTicketButton.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MostrarTicketButton.Location = new System.Drawing.Point(48, 47);
-            this.MostrarTicketButton.Name = "MostrarTicketButton";
-            this.MostrarTicketButton.Size = new System.Drawing.Size(174, 62);
-            this.MostrarTicketButton.TabIndex = 0;
-            this.MostrarTicketButton.Text = "Mostrar Tickets";
-            this.MostrarTicketButton.UseVisualStyleBackColor = true;
-            // 
             // LimpiarButton
             // 
             this.LimpiarButton.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -77,6 +67,16 @@ namespace Examen2.Vistas
             this.LimpiarButton.TabIndex = 1;
             this.LimpiarButton.Text = "Limpiar";
             this.LimpiarButton.UseVisualStyleBackColor = true;
+            // 
+            // MostrarTicketButton
+            // 
+            this.MostrarTicketButton.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MostrarTicketButton.Location = new System.Drawing.Point(48, 47);
+            this.MostrarTicketButton.Name = "MostrarTicketButton";
+            this.MostrarTicketButton.Size = new System.Drawing.Size(174, 62);
+            this.MostrarTicketButton.TabIndex = 0;
+            this.MostrarTicketButton.Text = "Mostrar Tickets";
+            this.MostrarTicketButton.UseVisualStyleBackColor = true;
             // 
             // DetalleDataGridView
             // 
@@ -95,7 +95,7 @@ namespace Examen2.Vistas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(776, 615);
             this.Controls.Add(this.DetalleDataGridView);
             this.Controls.Add(this.groupBox1);

@@ -141,7 +141,7 @@ namespace Examen2.Vistas
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(195, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 17);
+            this.label2.Size = new System.Drawing.Size(23, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "ID:";
             // 
@@ -263,7 +263,7 @@ namespace Examen2.Vistas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(924, 604);
             this.Controls.Add(this.TipoDataGridView);
             this.Controls.Add(this.TipoSoporteComboBox);
